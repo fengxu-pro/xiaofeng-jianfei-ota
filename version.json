@@ -1,10 +1,10 @@
 {
-  "versionName": "1.1.0",
-  "versionCode": 2,
-  "apkUrl": "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.1.0/app-debug.apk",
+  "versionName": "1.2.0",
+  "versionCode": 3,
+  "apkUrl": "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.2.0/app-debug.apk",
   "notes": [
-    "拍照识秤：端上 ML Kit 中文 OCR 真实识别体重数字",
-    "拍照识饮料：OCR 杯身标签中文匹配内置饮品库",
-    "整餐识别保留占位桩（真实识别需服务端视觉模型）"
+    "整餐识别接入服务端视觉接口（路线 A）",
+    "服务端未配置自动降级手动补录",
+    "移除 MEAL 演示假数据"
   ]
 }
