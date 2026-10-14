@@ -1,14 +1,15 @@
 {
-  "versionName": "1.4.7",
-  "versionCode": 12,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk",
+  "versionName": "1.4.8",
+  "versionCode": 13,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk",
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk"
   ],
   "notes": [
-    "修复「我的」页弹框关不掉：性别 / 活动水平选择框弹出后无法关闭的问题已解决（根因是列表行的点击回调被误当成排版内容执行，导致弹框状态被反复写回）",
-    "体重记录不再常驻显示「删除」按钮，改为左滑记录 → 二次确认后删除，避免误删；删除后曲线仍按剩余记录重绘",
-    "「我的」页各项数值改为右对齐显示，「编辑」以绿色提示可点击，信息更好扫读"
+    "修掉体重页「一片橙」：左滑删除的红底以前一直透在列表行下面（看着每行都是橙的、还常显「删除」）。现在行内是不透明白底，删除底只有滑动时才露出来，并给行加了圆角",
+    "新增零食识别：雪饼/米饼、薯片/膨化、爆米花有了独立营养类目，模型认出饼干/薯片一类也会正确落到零食而不是「未收录」",
+    "饮食页新增常见零食一键计入：旺旺雪饼、旺旺仙贝、薯片、奥利奥、好丽友派、士力架（按常见一小包的份量填好热量与三大营养素）",
+    "识别失败时的「常用食材」从 10 个扩到 15 个并加入零食，自动换行，窄屏不再截断"
   ]
 }
