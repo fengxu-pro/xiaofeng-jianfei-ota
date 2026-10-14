@@ -1,14 +1,14 @@
 {
-  "versionName": "1.4.6",
-  "versionCode": 11,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk",
+  "versionName": "1.4.7",
+  "versionCode": 12,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk",
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.7/app-release.apk"
   ],
   "notes": [
-    "新增「性别」「活动水平」可设置：热量计算不再写死男性/轻活动，女性 BMR 用 -161、活动系数按久坐1.2~极高1.9 自动调整",
-    "「我的」页新增基础代谢(BMR)、活动系数展示，改完性别/活动量后每日热量上限与蛋白质目标实时重算",
-    "老用户首次打开会自动迁移数据库加入这两个字段（默认男/轻活动），不会丢历史记录"
+    "修复「我的」页弹框关不掉：性别 / 活动水平选择框弹出后无法关闭的问题已解决（根因是列表行的点击回调被误当成排版内容执行，导致弹框状态被反复写回）",
+    "体重记录不再常驻显示「删除」按钮，改为左滑记录 → 二次确认后删除，避免误删；删除后曲线仍按剩余记录重绘",
+    "「我的」页各项数值改为右对齐显示，「编辑」以绿色提示可点击，信息更好扫读"
   ]
 }
