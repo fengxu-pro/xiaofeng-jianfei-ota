@@ -1,10 +1,11 @@
 {
-  "versionName": "1.4.1",
-  "versionCode": 6,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.1/app-debug.apk",
+  "versionName": "1.4.3",
+  "versionCode": 8,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.3/app-debug.apk",
   "notes": [
-    "OTA 下载改为断点续传 + 失败自动重试（慢网不再从 0 卡死重下）",
-    "下载地址切换到 GitHub 加速镜像，国内下载速度大幅提升",
-    "含上版修复：分析界面列表数值显示、全屏沉浸式"
+    "份量默认值改为按菜品「常见一份」预估（不再一律 200g）：半个柚子 300g、一杯牛奶 250g、一块披萨 120g 等，仍可手改",
+    "生鲜/果蔬识别门限放宽：半个柚子、切开的瓜果这类弱识别更容易出结果",
+    "认不出时新增「常用食材」一键添加（柚子/橙/苹果/香蕉/石榴/米饭/鸡蛋/牛奶…），不再只能手动去饮食页加",
+    "含 v1.4.2 修复：拍照识别崩溃（UINT8 量化）、接入生鲜果蔬模型、拍到异物诚实拒答、营养表补全"
   ]
 }
