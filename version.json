@@ -1,10 +1,10 @@
 {
-  "versionName": "1.4.0",
-  "versionCode": 5,
-  "apkUrl": "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.0/app-debug.apk",
+  "versionName": "1.4.1",
+  "versionCode": 6,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.1/app-debug.apk",
   "notes": [
-    "修复智能分析界面列表右侧数值（BMR/TDEE/热量上限/蛋白等 kcal·g 数值）被截断不显示的问题",
-    "改为全屏沉浸式显示，底部系统导航栏与 App 底栏自然融合，去掉多余系统栏视觉干扰",
-    "首页建议行数值显示同步修复"
+    "OTA 下载改为断点续传 + 失败自动重试（慢网不再从 0 卡死重下）",
+    "下载地址切换到 GitHub 加速镜像，国内下载速度大幅提升",
+    "含上版修复：分析界面列表数值显示、全屏沉浸式"
   ]
 }
