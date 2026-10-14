@@ -7,7 +7,7 @@
     "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk"
   ],
   "notes": [
-    "OTA 下载提速：安装包改为 64 位单架构 + 正式构建，体积从 69MB 降到约 40MB，下载更快",
+    "OTA 下载提速：安装包改为 64 位单架构 + 正式构建，体积从 69MB 降到约 52MB（瘦身约 25%），下载更快",
     "OTA 多镜像自愈：主镜像慢或不可用时自动切换备用镜像，不再卡死在单一线路",
     "含此前全部更新：拍照识别崩溃修复、生鲜果蔬识别、体重单项删除与曲线重绘、个人信息可编辑"
   ]
