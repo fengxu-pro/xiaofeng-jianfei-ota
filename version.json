@@ -1,10 +1,10 @@
 {
-  "versionName": "1.3.0",
-  "versionCode": 4,
-  "apkUrl": "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.3.0/app-debug.apk",
+  "versionName": "1.4.0",
+  "versionCode": 5,
+  "apkUrl": "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.0/app-debug.apk",
   "notes": [
-    "整餐识别改为纯端上 TFLite（AIY food_V1，2024 类，离线）",
-    "拍照整餐展示 Top-3 候选，可确认菜品 + 改克数",
-    "体重/饮料端上 OCR；整餐不依赖 GMS/服务器"
+    "修复智能分析界面列表右侧数值（BMR/TDEE/热量上限/蛋白等 kcal·g 数值）被截断不显示的问题",
+    "改为全屏沉浸式显示，底部系统导航栏与 App 底栏自然融合，去掉多余系统栏视觉干扰",
+    "首页建议行数值显示同步修复"
   ]
 }
