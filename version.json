@@ -1,14 +1,14 @@
 {
-  "versionName": "1.4.5",
-  "versionCode": 10,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk",
+  "versionName": "1.4.6",
+  "versionCode": 11,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk",
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.6/app-release.apk"
   ],
   "notes": [
-    "OTA 下载提速：安装包改为 64 位单架构 + 正式构建，体积从 69MB 降到约 52MB（瘦身约 25%），下载更快",
-    "OTA 多镜像自愈：主镜像慢或不可用时自动切换备用镜像，不再卡死在单一线路",
-    "含此前全部更新：拍照识别崩溃修复、生鲜果蔬识别、体重单项删除与曲线重绘、个人信息可编辑"
+    "新增「性别」「活动水平」可设置：热量计算不再写死男性/轻活动，女性 BMR 用 -161、活动系数按久坐1.2~极高1.9 自动调整",
+    "「我的」页新增基础代谢(BMR)、活动系数展示，改完性别/活动量后每日热量上限与蛋白质目标实时重算",
+    "老用户首次打开会自动迁移数据库加入这两个字段（默认男/轻活动），不会丢历史记录"
   ]
 }
