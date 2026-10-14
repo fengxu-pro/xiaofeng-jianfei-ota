@@ -1,11 +1,14 @@
 {
-  "versionName": "1.4.4",
-  "versionCode": 9,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.4/app-debug.apk",
+  "versionName": "1.4.5",
+  "versionCode": 10,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk",
+  "apkUrls": [
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.5/app-release.apk"
+  ],
   "notes": [
-    "体重记录支持单项删除：长按/点「删除」后弹确认，删除后趋势曲线按剩余记录自动重绘",
-    "修复趋势曲线排序 bug：之前取的是最旧 7 条，现在按最近 7 条时间正序绘制",
-    "个人信息编辑更清晰：身高、年龄拆成两个独立输入框并预填当前值，保存即生效",
-    "含 v1.4.3：拍照识别崩溃修复、生鲜果蔬识别、份量按菜品常见一份估算、识别失败可一键加常用食材"
+    "OTA 下载提速：安装包改为 64 位单架构 + 正式构建，体积从 69MB 降到约 40MB，下载更快",
+    "OTA 多镜像自愈：主镜像慢或不可用时自动切换备用镜像，不再卡死在单一线路",
+    "含此前全部更新：拍照识别崩溃修复、生鲜果蔬识别、体重单项删除与曲线重绘、个人信息可编辑"
   ]
 }
