@@ -1,15 +1,15 @@
 {
-  "versionName": "1.4.8",
-  "versionCode": 13,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk",
+  "versionName": "1.4.9",
+  "versionCode": 14,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.8/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
+    "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk"
   ],
   "notes": [
-    "修掉体重页「一片橙」：左滑删除的红底以前一直透在列表行下面（看着每行都是橙的、还常显「删除」）。现在行内是不透明白底，删除底只有滑动时才露出来，并给行加了圆角",
-    "新增零食识别：雪饼/米饼、薯片/膨化、爆米花有了独立营养类目，模型认出饼干/薯片一类也会正确落到零食而不是「未收录」",
-    "饮食页新增常见零食一键计入：旺旺雪饼、旺旺仙贝、薯片、奥利奥、好丽友派、士力架（按常见一小包的份量填好热量与三大营养素）",
-    "识别失败时的「常用食材」从 10 个扩到 15 个并加入零食，自动换行，窄屏不再截断"
+    "修 OTA 升级「一直显示 0%」：本地残留旧包会触发越界 Range(416) 把文件截断成空/损坏还报成功，现已自动清理重下",
+    "总量未知时显示不确定进度条而非卡 0%；镜像列表新增直连 GitHub 原地址兜底",
+    "保留 1.4.8：体重页左滑删除（不透明白底）、雪饼/薯片/爆米花等零食识别与一键计入"
   ]
 }
