@@ -1,15 +1,16 @@
 {
-  "versionName": "1.4.10",
-  "versionCode": 15,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
+  "versionName": "1.4.11",
+  "versionCode": 16,
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
-    "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.11/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.11/app-release.apk",
+    "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.11/app-release.apk"
   ],
   "notes": [
-    "修体重秤拍照识别：四个方向自动重试（秤面数字倒了也能认），支持「斤」单位自动换算 kg，七段数码管常见误读纠正",
-    "整餐识别新增「包装文字」兜底：旺旺雪饼/黑米雪饼/仙贝/薯片/奥利奥等品牌零食，认包装上的大字直接给出条目",
-    "一键加新增山竹；识别不出时兜底入口更全"
+    "拍照识别更全面：生鲜白名单扩到 50 项，新增 Dungeness crab / rock crab / king crab / 龙虾 / 海参等海鲜",
+    "未收录菜品不再显示「未收录菜品（估算）」，改为显示英文原名 + 按食物类别估营养，结果更可控可手改",
+    "新增 45 条常见菜名中文翻译（拉面、冬阴功、泡菜、烤肉、沙爹、泰式炒河粉等），识别结果更易读",
+    "体重秤 OCR 鲁棒性增强：先裁中心再四方向识别，数码管误读归一更全（O/L/T/G/b → 0/1/7/6）",
+    "包装零食识别扩列：乐事薯片、三只松鼠、良品铺子、百草味、酸奶、牛奶等常见品牌一键加"
   ]
 }
