@@ -1,15 +1,15 @@
 {
-  "versionName": "1.4.9",
-  "versionCode": 14,
-  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
+  "versionName": "1.4.10",
+  "versionCode": 15,
+  "apkUrl": "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
   "apkUrls": [
-    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
-    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk",
-    "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.9/app-release.apk"
+    "https://ghproxy.net/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
+    "https://ghproxy.com/https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk",
+    "https://github.com/fengxu-pro/xiaofeng-jianfei-ota/releases/download/v1.4.10/app-release.apk"
   ],
   "notes": [
-    "修 OTA 升级「一直显示 0%」：本地残留旧包会触发越界 Range(416) 把文件截断成空/损坏还报成功，现已自动清理重下",
-    "总量未知时显示不确定进度条而非卡 0%；镜像列表新增直连 GitHub 原地址兜底",
-    "保留 1.4.8：体重页左滑删除（不透明白底）、雪饼/薯片/爆米花等零食识别与一键计入"
+    "修体重秤拍照识别：四个方向自动重试（秤面数字倒了也能认），支持「斤」单位自动换算 kg，七段数码管常见误读纠正",
+    "整餐识别新增「包装文字」兜底：旺旺雪饼/黑米雪饼/仙贝/薯片/奥利奥等品牌零食，认包装上的大字直接给出条目",
+    "一键加新增山竹；识别不出时兜底入口更全"
   ]
 }
